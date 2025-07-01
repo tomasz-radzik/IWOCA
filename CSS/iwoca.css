@@ -1,0 +1,201 @@
+body {
+  font-family:  sans-serif, Arial, Times, Helvetica; 
+  font-size: 12pt;
+  /*background-color: #ffe4c4;*/ 
+  background-color: #dae8f1; 
+  margin: auto ;
+  padding: 5px;
+}
+
+img {
+  border : none;
+}
+
+table {
+  border-spacing: 0pt;
+}
+
+/*
+ * Header (containing the banner, iwoca and KCL logos and conference title)
+ */
+
+#header {
+  height: 149px;
+  vertical-align: center;
+}
+
+#header #logo {
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+#header #title {
+  padding: 1ex 3ex 0 3ex;
+  max-width : 850px;
+  text-align: center;
+}
+
+#header #title h1 {
+  text-align: center;
+  font-size: xx-large; 
+}
+
+#header #title h2 {
+  text-align: center;
+  font-size: x-large; 
+}
+
+/* 
+ * Contents (contains the navigation column - #navigation - and the text - #main - 
+ * that will appear in the main window, such as members of various comittees, 
+ * informations, ...)
+ */
+ 
+/* Navigation (contains one or more boxes with the list of items) */
+
+#contents #navigation {
+  margin-top: 1em;
+  padding: 10px 0px 10px 6px;
+  text-align: center;
+  border-top: solid 1pt #337fa9;
+  border-right: solid 1pt lightgray;
+  border-bottom: solid 1pt #337fa9;
+  border-left: solid 1pt #337fa9;
+  /*background-color: #ffefdb;*/
+  background-color: #cee0ec;
+  vertical-align: top;
+}
+
+#contents #navigation .box {
+  width: 250px;
+  margin: 1.5em auto 2.5em auto;
+  padding: .5ex auto 1em auto;
+/*  border: 1px #999 solid;
+  background-color: #cee0ec;*/
+}
+
+#contents #navigation .box a {
+  text-decoration: none;
+  color:#337fa9;
+}
+
+#contents #navigation .box a:hover {
+  text-decoration: none;
+  color: #0000cc;
+  background-color: #337fa9;
+}
+
+#contents #navigation .box h1 {
+  font-variant: small-caps;
+  font-weight: bolder;
+  font-size: 90%;
+  text-align: left;
+  margin-top: -1.25em;
+  margin-left: 3pt;
+  margin-right: 3pt;
+  color: #657;
+}
+
+#contents #navigation .box ul {
+  text-align: left;
+  margin-bottom: .5em;
+  list-style-image: url(../Images/bullet.png);
+<!--  list-style-image: url(../Images/bullet.png);-->
+
+}
+
+#contents #navigation .box li {
+  font-size: 80%;
+  display: block;
+  color: #0000cc;
+  font-weight: bold;
+}
+
+#navigation li a{
+  display: block;
+  font-color: #000000;
+  font-weight: bold;
+/*
+    color:#A60500;
+    display:block;
+    font-size:12px;
+    text-decoration:none;
+    font-weight:bold;
+    padding:10px 18px;
+*/
+}
+
+#contents #main {
+  margin-left: 1em;
+  margin-right: 1em;
+  text-align: left;
+  vertical-align: top;
+  background-color: #fff;
+  border-right: solid 1pt #337fa9;
+  border-top: solid 1pt #337fa9;
+  border-bottom: solid 1pt #337fa9;
+  width : 650px;
+}
+
+#contents #main h1 {
+  margin-left: 1em;
+  margin-top: 1em;
+  font-variant: small-caps;
+  text-align: left;
+  font-size: 120%;
+  color: #0000cc;
+}
+
+#contents #main h2 {
+  margin-left: 1em;
+  margin-top: 1em;
+  font-variant: small-caps;
+  text-align: left;
+  font-size: 110%;
+  color: #337fa9;
+}
+
+
+#contents #main hr {
+  margin-top: .5em;
+  margin-bottom: .5em;
+  width: 20%;
+  height: 2px;
+  color: gray;
+  text-align: left;
+}
+
+#contents #main ul {
+  margin-top: 1em;
+  list-style-image: url(../Images/bullet.png);
+}
+
+#contents #main ul li {
+  margin-left: 1em;
+  margin-right: 1em;
+  font-size: 80%;
+}
+
+#contents #main img {
+  margin-top: 1em;
+}
+
+#contents #main p {
+  text-align: justify;
+  font-size: 90%;
+  color: #333;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+#footer {
+  padding-top: .5em;
+  padding-bottom: .5em;
+  text-align: center;
+  font-size: 70%;
+  background-color: #99bed8;
+  border-left: solid 1pt #337fa9;
+  border-right: solid 1pt #337fa9;
+  border-bottom: solid 1pt #337fa9;
+}
